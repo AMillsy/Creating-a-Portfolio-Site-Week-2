@@ -1,6 +1,8 @@
 :root {
   --primary-colour: #00afb9;
   --secondary-colour: white;
+  --normal-image-size: 300px;
+  --small-image-size: 200px;
 }
 
 /*HEADER/////////////////////////////////////////*/
@@ -46,10 +48,14 @@ a:visited {
 /*Main ////////////////////////////////////////////////////*/
 main {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
+/*About me + General settings/////////////////////////////*/
 section {
   margin-top: 2vh;
+  margin-bottom: 5vh;
   width: 95%;
   border-left: solid 5px var(--primary-colour);
 }
@@ -68,10 +74,10 @@ p {
   margin: 1vw;
 }
 .image-container {
-  min-width: 300px;
-  min-height: 300px;
-  width: 300px;
-  height: 300px;
+  min-width: var(--normal-image-size);
+  min-height: var(--normal-image-size);
+  width: var(--normal-image-size);
+  height: var(--normal-image-size);
   border: 3px solid var(--primary-colour);
 }
 img {
@@ -87,8 +93,10 @@ img {
     align-items: center;
   }
   .image-container {
-    width: 200px;
-    height: 200px;
+    min-width: var(--small-image-size);
+    min-height: var(--small-image-size);
+    width: var(--small-image-size);
+    height: var(--small-image-size);
   }
 }
 @media screen and (max-width: 500px) {
@@ -98,7 +106,7 @@ img {
   .image-container {
     order: 1;
   }
-  p {
+  .p-container {
     order: 2;
   }
   article {
