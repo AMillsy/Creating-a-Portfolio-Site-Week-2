@@ -6,7 +6,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 2vh;
+  padding: 3vh;
   background-color: var(--primary-colour);
 }
 
@@ -37,5 +37,10 @@ a:visited {
 @media screen and (max-width: 779px) {
   header {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  li {
+    font-size: 150%;
   }
 }
