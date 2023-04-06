@@ -1,4 +1,41 @@
 :root {
-  --primary-colour: ;
-  --secondary-clour: ;
+  --primary-colour: #00afb9;
+  --secondary-clour: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh;
+  background-color: var(--primary-colour);
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+}
+li {
+  font-size: 200%;
+  font-weight: bolder;
+  margin: 1.5vh 1.5vw;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--secondary-clour);
+}
+
+.flex-title {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 779px) {
+  header {
+    flex-direction: column;
+  }
 }
