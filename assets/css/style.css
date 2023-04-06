@@ -52,3 +52,19 @@ a:visited {
 }
 
 /*Main ////////////////////////////////////////////////////*/
+main {
+  display: flex;
+  justify-content: center;
+}
+section {
+  margin-top: 2vh;
+  width: 90%;
+  height: 400px;
+  border-left: solid 5px gray;
+}
+
+h2 {
+  margin-left: 1vw;
+  font-size: 250%;
+  font-weight: bolder;
+}
