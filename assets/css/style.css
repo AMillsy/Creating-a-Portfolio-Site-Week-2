@@ -1,37 +1,43 @@
 :root {
   --primary-colour: #00afb9;
-  --secondary-clour: white;
+  --secondary-colour: white;
 }
 
+/*HEADER/////////////////////////////////////////*/
 header {
   display: flex;
   justify-content: space-between;
-  padding: 3vh;
+  padding: 4vh;
   background-color: var(--primary-colour);
 }
 
-ul {
+.nav-item {
+  font-size: 200%;
+  font-weight: bolder;
+  margin: 0 1.5vw;
+}
+
+.nav-list {
+  margin-top: 1.5vh;
   display: flex;
   justify-content: right;
 }
-li {
-  font-size: 200%;
-  font-weight: bolder;
-  margin: 1.5vh 1.5vw;
-}
-
 h1 {
   font-size: 300%;
 }
 
 a:visited {
   text-decoration: none;
-  color: var(--secondary-clour);
+  color: var(--secondary-colour);
 }
 
-.flex-title {
+.portfolio-header {
   display: flex;
   align-items: center;
+}
+
+.header-title {
+  margin-left: 1vw;
 }
 
 @media screen and (max-width: 779px) {
@@ -40,7 +46,9 @@ a:visited {
   }
 }
 @media screen and (max-width: 500px) {
-  li {
+  .nav-item {
     font-size: 150%;
   }
 }
+
+/*Main ////////////////////////////////////////////////////*/
