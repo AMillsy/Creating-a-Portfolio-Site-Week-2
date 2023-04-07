@@ -61,6 +61,9 @@ a:visited {
 .social-link-first {
   margin-left: 2rem;
 }
+.git-link {
+  object-fit: fill;
+}
 .social-link-background {
   background-color: white;
   border-radius: 0.5rem;
