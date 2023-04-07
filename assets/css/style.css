@@ -112,6 +112,8 @@ img {
   margin: 0.75em;
   border: 5px orangered solid;
   object-fit: cover;
+  cursor: pointer;
+  transition: all 0.15s ease-out;
 }
 .main-card {
   min-height: 500px;
@@ -140,6 +142,9 @@ img {
   background-color: rgb(255, 255, 255);
   font-size: 150%;
   border-bottom-right-radius: 1rem;
+}
+.project-card:hover {
+  border: 10px orangered solid;
 }
 /*MEDIA QUERIES////////////////////////////////////////////*/
 @media screen and (max-width: 790px) {
