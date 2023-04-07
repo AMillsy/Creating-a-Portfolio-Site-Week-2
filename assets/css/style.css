@@ -9,6 +9,10 @@
 .anchor {
   scroll-margin-top: 100px;
 }
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 /*HEADER/////////////////////////////////////////*/
 header {
   position: fixed;
@@ -23,9 +27,11 @@ header {
 }
 
 .nav-item {
+  display: flex;
   font-size: 225%;
   font-weight: bolder;
   margin: 0 1.5vw;
+  margin-bottom: 1vh;
 }
 
 .nav-list {
@@ -115,6 +121,7 @@ h2 {
   border-bottom: 2px solid var(--primary-colour);
   padding-bottom: 1rem;
   margin-bottom: 0.5rem;
+  color: var(--primary-colour);
 }
 
 article {
