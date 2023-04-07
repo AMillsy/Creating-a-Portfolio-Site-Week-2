@@ -7,11 +7,14 @@
 
 /*HEADER/////////////////////////////////////////*/
 header {
+  position: fixed;
   display: flex;
   justify-content: space-between;
+  width: 100%;
   padding: 1.5rem;
   background-color: var(--primary-colour);
   color: white;
+  z-index: 999;
 }
 
 .nav-item {
@@ -45,9 +48,24 @@ a:visited {
 .header-title {
   margin-left: 1vw;
 }
+.social-link {
+  margin-left: 0.5rem;
+  min-width: 40px;
+  min-height: 40px;
+  width: 40px;
+  height: 40px;
+}
+.social-link-first {
+  margin-left: 2rem;
+}
+.social-link-background {
+  background-color: white;
+  border-radius: 0.5rem;
+}
 
 /*Main ////////////////////////////////////////////////////*/
 main {
+  padding-top: 96px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -138,11 +156,19 @@ img {
   .extra-card {
     width: 40%;
   }
+  main {
+    padding-top: 137px;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .nav-item {
-    font-size: 150%;
+    font-size: 125%;
+    text-align: center;
+    display: flex;
+  }
+  .nav-list {
+    justify-content: space-around;
   }
   .image-container {
     order: 1;
