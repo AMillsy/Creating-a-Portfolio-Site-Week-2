@@ -11,6 +11,7 @@ header {
   justify-content: space-between;
   padding: 1.5rem;
   background-color: var(--primary-colour);
+  color: white;
 }
 
 .nav-item {
@@ -111,6 +112,16 @@ img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.project-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  font-size: 150%;
+  border-bottom-right-radius: 1rem;
 }
 /*MEDIA QUERIES////////////////////////////////////////////*/
 @media screen and (max-width: 790px) {
