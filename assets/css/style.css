@@ -64,6 +64,8 @@ h2 {
   margin-left: 1.5vw;
   font-size: 250%;
   font-weight: bolder;
+  border-bottom: 2px solid var(--primary-colour);
+  margin-bottom: 1rem;
 }
 
 article {
