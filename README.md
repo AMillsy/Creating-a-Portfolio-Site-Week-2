@@ -3,7 +3,7 @@
 ## What needs to be in the project
 
 Sample of previous work
-Developers first work has to be large, image of work should be larger then others work.
+Developers first work has to be large image of work and should be larger then others work.
 Name, a recent photo/avatar. Links to sections about them, work and how to contact them
 When you click on the link the ui scrolls to each part
 
