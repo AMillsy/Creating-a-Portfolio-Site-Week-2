@@ -1,8 +1,10 @@
 :root {
   --primary-colour: #00afb9;
-  --secondary-colour: white;
+  --secondary-colour: rgb(124, 33, 33);
+  --tertiary-colour: white;
   --normal-image-size: 300px;
   --small-image-size: 200px;
+  --media-link-size: 40px;
 }
 
 /*HEADER/////////////////////////////////////////*/
@@ -13,7 +15,7 @@ header {
   width: 100%;
   padding: 1.5rem;
   background-color: var(--primary-colour);
-  color: white;
+  color: var(--secondary-colour);
   z-index: 999;
 }
 
@@ -49,11 +51,12 @@ a:visited {
   margin-left: 1vw;
 }
 .social-link {
+  display: inline-block;
   margin-left: 0.5rem;
-  min-width: 40px;
-  min-height: 40px;
-  width: 40px;
-  height: 40px;
+  min-width: var(--media-link-size);
+  min-height: var(--media-link-size);
+  width: var(--media-link-size);
+  height: var(--media-link-size);
 }
 .social-link-first {
   margin-left: 2rem;
@@ -111,7 +114,7 @@ img {
 .project-card {
   position: relative;
   margin: 0.75em;
-  border: 5px orangered solid;
+  border: 5px var(--secondary-colour) solid;
   border-radius: 4px;
   object-fit: cover;
   cursor: pointer;
@@ -141,12 +144,43 @@ img {
   align-items: center;
   position: absolute;
   padding: 1rem;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--tertiary-colour);
   font-size: 150%;
   border-bottom-right-radius: 1rem;
 }
 .project-card:hover {
-  border: 10px orangered solid;
+  border: 10px var(--secondary-colour) solid;
+}
+/*CONTACT ME/////////////////////////////////////////////*/
+
+.contact-container {
+  display: flex;
+  cursor: pointer;
+  margin-right: 2vw;
+  padding: 0;
+}
+.contact-section {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contact {
+  position: relative;
+  margin: 0.5rem;
+  margin-bottom: 2rem;
+  color: rgb(45, 15, 156);
+  font-weight: bolder;
+  font-size: 150%;
+  text-decoration: underline;
+}
+.phone::before {
+  display: inline-block;
+  content: "📞";
+}
+.twitter::before {
+  content: url(../images/Twitter.png);
 }
 /*MEDIA QUERIES////////////////////////////////////////////*/
 @media screen and (max-width: 980px) {
