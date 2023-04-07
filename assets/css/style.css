@@ -1,12 +1,14 @@
 :root {
-  --primary-colour: #00afb9;
-  --secondary-colour: rgb(124, 33, 33);
-  --tertiary-colour: white;
+  --primary-colour: #011627;
+  --secondary-colour: #648de5;
+  --tertiary-colour: #fafffd;
   --normal-image-size: 300px;
   --small-image-size: 200px;
   --media-link-size: 40px;
 }
-
+.anchor {
+  scroll-margin-top: 100px;
+}
 /*HEADER/////////////////////////////////////////*/
 header {
   position: fixed;
@@ -15,12 +17,13 @@ header {
   width: 100%;
   padding: 1.5rem;
   background-color: var(--primary-colour);
-  color: var(--secondary-colour);
+  color: var(--tertiary-colour);
   z-index: 999;
+  font-family: monospace;
 }
 
 .nav-item {
-  font-size: 200%;
+  font-size: 225%;
   font-weight: bolder;
   margin: 0 1.5vw;
 }
@@ -35,11 +38,11 @@ h1 {
 }
 a {
   text-decoration: none;
-  color: var(--secondary-colour);
+  color: var(--tertiary-colour);
 }
 a:visited {
   text-decoration: none;
-  color: var(--secondary-colour);
+  color: var(--tertiary-colour);
 }
 
 .portfolio-header {
@@ -106,7 +109,7 @@ p {
   min-height: var(--normal-image-size);
   width: var(--normal-image-size);
   height: var(--normal-image-size);
-  border: 3px solid var(--primary-colour);
+  border: 3px solid var(--secondary-colour);
 }
 img {
   object-fit: cover;
@@ -145,14 +148,20 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   position: absolute;
   padding: 1rem;
+  padding-bottom: 0;
   background-color: var(--tertiary-colour);
   font-size: 150%;
   border-bottom-right-radius: 1rem;
+  font-weight: bold;
 }
 .project-card:hover {
   border: 10px var(--secondary-colour) solid;
+}
+.project-subtext {
+  font-size: 60%;
 }
 /*CONTACT ME/////////////////////////////////////////////*/
 
@@ -199,6 +208,9 @@ img {
   main {
     padding-top: 137px;
   }
+  .anchor {
+    scroll-margin-top: 150px;
+  }
 }
 @media screen and (max-width: 790px) {
   .image-container {
@@ -227,15 +239,9 @@ img {
     order: 2;
   }
   .nav-item {
-    font-size: 125%;
+    font-size: 140%;
   }
   h1 {
     font-size: 250%;
-  }
-  main {
-    padding-top: 0px;
-  }
-  header {
-    position: relative;
   }
 }
