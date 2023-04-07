@@ -71,6 +71,26 @@ a:visited {
   background-color: white;
   border-radius: 0.5rem;
 }
+.hero-container {
+  display: flex;
+  position: relative;
+}
+.hero {
+  margin-top: 80px;
+  max-width: 100%;
+  max-height: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.moto {
+  padding: 1rem;
+  bottom: 0px;
+  position: absolute;
+  background-color: var(--secondary-colour);
+  border-radius: 0.5rem;
+  color: var(--tertiary-colour);
+  box-shadow: 5px 5px var(--primary-colour);
+}
 
 /*Main ////////////////////////////////////////////////////*/
 main {
@@ -118,7 +138,6 @@ img {
 }
 /*PROJECT ////////////////////////////*/
 .project-card {
-  position: relative;
   margin: 0.75em;
   border: 5px var(--secondary-colour) solid;
   border-radius: 4px;
@@ -156,6 +175,7 @@ img {
   font-size: 150%;
   border-bottom-right-radius: 1rem;
   font-weight: bold;
+  color: black;
 }
 .project-card:hover {
   border: 10px var(--secondary-colour) solid;
