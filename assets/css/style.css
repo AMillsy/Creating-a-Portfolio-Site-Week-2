@@ -235,9 +235,6 @@ gives the effect of focusing on the card*/
   display: inline-block;
   content: "📞";
 }
-.twitter::before {
-  content: url(../images/Twitter.png);
-}
 
 /* FOOTER////////////////////////////////////////////////*/
 footer {
