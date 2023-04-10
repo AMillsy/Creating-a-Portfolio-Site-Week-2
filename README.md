@@ -1,5 +1,9 @@
 # Creating a Portfolio Site Week 2
 
+## Github Pages
+
+**[Link to the GitHub Pages website](https://amillsy.github.io/Creating-a-Portfolio-Site-Week-2/ "Portfolio page website")**
+
 ## User Story
 
 ```
@@ -34,3 +38,23 @@ This project has developed my understanding of the entiritry of HTML and CSS to 
 viewing the page.
 
 Futhermore, it has helped me understand how to layout my pages. When doing this project I made wireframes of the website which increased my efficency massively, as I didn't get stuck wondering about how the page should be laid out.
+
+![Google slides Image of the wireframe](./assets/images/READMEImages/Wireframe.png)
+
+## Usage
+
+I would be able to display all my portfolio on a single website, where a user or employee would be able to access this main website and then see all of my previous projects. Great for having everything in a centeral location as the employee would be able to easily move throughout the site.
+
+They would be able to get all the main details as there is:
+
+### About me:
+
+![About me section](./assets/images/READMEImages/About%20me.png)
+
+### Projects:
+
+![Project section](./assets/images/READMEImages/Projects.png)
+
+### Contact me:
+
+![Contact me Section](./assets/images/READMEImages/Contact%20me.png)
