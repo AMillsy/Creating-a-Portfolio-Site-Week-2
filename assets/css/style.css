@@ -6,14 +6,18 @@
   --small-image-size: 200px;
   --media-link-size: 40px;
 }
+/*Used to make sure the scroll function in HTML goes to the right section*/
 .anchor {
   scroll-margin-top: 120px;
 }
+/*Having all the text have the same font*/
 * {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 /*HEADER/////////////////////////////////////////*/
+
+/*Making the header scroll with the user*/
 header {
   position: fixed;
   display: flex;
@@ -42,15 +46,17 @@ header {
 h1 {
   font-size: 300%;
 }
+
 a {
-  text-decoration: none;
   color: var(--tertiary-colour);
 }
+/*Remove the inherited function of the underline*/
 a:visited {
   text-decoration: none;
   color: var(--tertiary-colour);
 }
 
+/*Needed to make sure the social links and name stay together*/
 .portfolio-header {
   display: flex;
   align-items: center;
@@ -59,6 +65,7 @@ a:visited {
 .header-title {
   margin-left: 1vw;
 }
+/*Forcing the wanted size on the images*/
 .social-link {
   display: inline-block;
   margin-left: 0.5rem;
@@ -88,6 +95,7 @@ a:visited {
   height: 300px;
   object-fit: cover;
 }
+
 .moto {
   padding: 1rem;
   bottom: 0px;
@@ -99,6 +107,7 @@ a:visited {
 }
 
 /*Main ////////////////////////////////////////////////////*/
+/*Moving it down so that the fixed header doesn't block the mains content*/
 main {
   padding-top: 5vh;
   display: flex;
@@ -131,6 +140,7 @@ article {
 p {
   margin: 1vw;
 }
+/*Forcing size*/
 .image-container {
   min-width: var(--normal-image-size);
   min-height: var(--normal-image-size);
@@ -144,6 +154,9 @@ img {
   height: 100%;
 }
 /*PROJECT ////////////////////////////*/
+
+/*Transition on the card, so when a person hovers the border gets thicker,
+gives the effect of focusing on the card*/
 .project-card {
   margin: 0.75em;
   border: 5px var(--secondary-colour) solid;
@@ -152,6 +165,7 @@ img {
   cursor: pointer;
   transition: all 0.15s ease-out;
 }
+
 .main-card {
   min-height: 500px;
   height: 500px;
@@ -171,6 +185,7 @@ img {
   justify-content: center;
   flex-wrap: wrap;
 }
+/*The card that gets placed over the top of the project cards*/
 .project-title {
   display: flex;
   justify-content: center;
@@ -237,6 +252,7 @@ footer {
 
 /*MEDIA QUERIES////////////////////////////////////////////*/
 @media screen and (max-width: 980px) {
+  /*Make the header items stack below each other to fit on smaller screens*/
   header {
     flex-direction: column;
     align-items: center;
@@ -246,6 +262,7 @@ footer {
     text-align: center;
     display: flex;
   }
+  /*Header gets larger, so main needs to get pushed down*/
   main {
     padding-top: 137px;
   }
@@ -260,12 +277,14 @@ footer {
     width: var(--small-image-size);
     height: var(--small-image-size);
   }
+
   .extra-card {
     width: 40%;
   }
 }
 
 @media screen and (max-width: 500px) {
+  /*Makes the cards stack on each other and the About me Image to be placed above the text*/
   article {
     flex-direction: column;
     align-items: center;

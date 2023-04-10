@@ -32,7 +32,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-## Description
+## What I have learnt
 
 This project has developed my understanding of the entiritry of HTML and CSS to a large extent by having to do this without the help of a tutor so whenever I had a problem, I had to understand what was wrong and then learn from my mistakes. By doing this, I have learnt a huge amount about how to create a sementatic website that uses all the modern CSS and HTML standards so that an end user is able to resize and resphape there browser and still be able to have a readable and enjoyable experience when
 viewing the page.
