@@ -223,6 +223,18 @@ img {
 .twitter::before {
   content: url(../images/Twitter.png);
 }
+
+/* FOOTER////////////////////////////////////////////////*/
+footer {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  background-color: var(--primary-colour);
+  color: #666;
+  align-items: center;
+  justify-content: center;
+}
+
 /*MEDIA QUERIES////////////////////////////////////////////*/
 @media screen and (max-width: 980px) {
   header {
