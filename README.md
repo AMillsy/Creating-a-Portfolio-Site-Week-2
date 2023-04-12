@@ -34,16 +34,18 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## What I have learnt
 
-This project has developed my understanding of the entiritry of HTML and CSS to a large extent by having to do this without the help of a tutor so whenever I had a problem, I had to understand what was wrong and then learn from my mistakes. By doing this, I have learnt a huge amount about how to create a sementatic website that uses all the modern CSS and HTML standards so that an end user is able to resize and resphape there browser and still be able to have a readable and enjoyable experience when
+This project has developed my understanding of the entirety of HTML and CSS to a large extent by having to do this without the help of a tutor so whenever I had a problem, I had to understand what was wrong and then learn from my mistakes. By doing this, I have learnt a huge amount about how to create a semantic website that uses all the modern CSS and HTML standards so that an end user can resize and reshape their browser and still be able to have a readable and enjoyable experience when
 viewing the page.
 
-Futhermore, it has helped me understand how to layout my pages. When doing this project I made wireframes of the website which increased my efficency massively, as I didn't get stuck wondering about how the page should be laid out.
+Furthermore, it has helped me understand how to layout my pages. When doing this project I made wireframes of the website which increased my efficiency massively, as I didn't get stuck wondering about how the page should be laid out.
+
+Lastly, I have learnt about the importance of having a good structure and layout in my CSS files and also having comments that support some of my Classes so that when I come back at a later date, I understand what is going on within each class.
 
 ![Google slides Image of the wireframe](./assets/images/READMEImages/Wireframe.png)
 
 ## Usage
 
-I would be able to display all my portfolio on a single website, where a user or employee would be able to access this main website and then see all of my previous projects. Great for having everything in a centeral location as the employee would be able to easily move throughout the site.
+I would be able to display all my portfolio on a single website, where a user or employee would be able to access this main website and then see all of my previous projects. Great for having everything in a central location as the employee would be able to easily move throughout the site.
 
 They would be able to get all the main details as there is:
 
@@ -53,6 +55,7 @@ They would be able to get all the main details as there is:
 
 ### Projects:
 
+This was the hardest section to make on the page, as I wanted to have interactive cards that people could hover over and click on, doing something this challenging with CSS and HTML taught me how to adapt my CSS into smaller sections and how to develop complicated things by breaking them down into smaller steps.
 ![Project section](./assets/images/READMEImages/Projects.png)
 
 ### Contact me:
