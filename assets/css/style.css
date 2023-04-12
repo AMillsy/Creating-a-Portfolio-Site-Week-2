@@ -185,7 +185,7 @@ gives the effect of focusing on the card*/
   justify-content: center;
   flex-wrap: wrap;
 }
-/*The card that gets placed over the top of the project cards*/
+/*The Title that gets placed over the top of the project card*/
 .project-title {
   display: flex;
   justify-content: center;
